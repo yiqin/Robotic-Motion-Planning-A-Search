@@ -1,5 +1,4 @@
-Robotic Motion Planning: A* Search
-
+# Robotic Motion Planning: A* Search
 
 
 ### Project Description

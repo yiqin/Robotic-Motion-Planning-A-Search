@@ -3,17 +3,12 @@
 
 ### Project Description
 #### Part 1:
-
-The first step is to implement A* to help a robot, getting from start to goal.
-
 The environment for this problem is a simple 2D grid, in which the robot can move in 8 directions, the 4
 cardinal directions, as well as diagonally. Moving diagonally is more expensive, it costs ```sqrt(2)``` units instead of 1 unit.
 The robot can move to any cell that is open. You can store the map in a 2D array or any data structure that you prefer.
 
 Given a start and goal position, write a program that computes and returns a minimum cost path from start
 to goal, using A*. You can use any heuristic function you'd like.
-
-Please use small maps to test your code.
 
 #### Part 2:
 

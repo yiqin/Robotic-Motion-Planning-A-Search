@@ -1,6 +1,7 @@
 Robotic Motion Planning: A* Search
 
 
+
 ### Project Description
 #### Part 1:
 
@@ -84,6 +85,7 @@ should not use the hummer to optimize the path.
 ```Make``` is used to build the code.
 
 To build the code:  ```make```
+
 To run the executable: ```./main```
 
 ### Thoughts
@@ -112,6 +114,11 @@ Part 1 - Test case 1:
 0 1 0 0 
 0 0 0 0 
 ```
+
+Start -> Goal
+
+(0, 0) -> (3, 3)
+
 Found the end position. Min cost is 11.2426
 ```
 (0,0) 
@@ -138,6 +145,10 @@ Part 2 - Test case 2:
 0 0 0 0 
 ```
 
+Start -> Goal
+
+(0, 0) -> (3, 3)
+
 Enable the hammer
 
 Found the end position. Min cost is 3
@@ -148,7 +159,6 @@ Found the end position. Min cost is 3
 (0,3)
 ```
 
-
 Part 1 - Test case 3:
 2D Grid
 ```
@@ -156,6 +166,10 @@ Part 1 - Test case 3:
 0 0 0 
 1 0 0 
 ```
+
+Start -> Goal
+
+(1, 0) -> (2, 2)
 
 Found the end position. Min cost is 2.41421
 ```
@@ -171,6 +185,10 @@ Part 2 - Test case 4:
 0 0 0 
 1 0 0 
 ```
+
+Start -> Goal
+
+(1, 0) -> (2, 2)
 
 Enable the hammer
 
@@ -189,10 +207,14 @@ Part 1 - Test case 5:
 1 0 0 
 ```
 
+Start -> Goal
+
+(0, 0) -> (2, 2)
+
 Failed to reach the end position
 
 
-Part 2 - Test case 5:
+Part 2 - Test case 6:
 2D Grid
 ```
 0 1 0 
@@ -200,6 +222,10 @@ Part 2 - Test case 5:
 1 0 0 
 ```
 Enable the hammer
+
+Start -> Goal
+
+(0, 0) -> (2, 2)
 
 Found the end position. Min cost is 2.82843
 ```

@@ -104,7 +104,8 @@ At one position, the robot uses the hammer. The ```z``` value will increase from
 
 
 ### Result
-Part 1 - Test case 1:
+*Test case 1*
+*Part 1:*
 2D Grid
 ```
 0 1 0 0 
@@ -134,7 +135,7 @@ Found the end position. Min cost is 11.2426
 (0,3)
 ```
 
-Part 2 - Test case 2:
+*Part 2:*
 2D Grid
 ```
 0 1 0 0 
@@ -159,7 +160,8 @@ Found the end position. Min cost is 3
 (0,3)
 ```
 
-Part 1 - Test case 3:
+*Test case 2*
+*Part 1:*
 2D Grid
 ```
 0 1 0 
@@ -178,7 +180,7 @@ Found the end position. Min cost is 2.41421
 (2,2)
 ```
 
-Part 2 - Test case 4:
+*Part 2:*
 2D Grid
 ```
 0 1 0 
@@ -199,7 +201,8 @@ Found the end position. Min cost is 2.41421
 (2,2)
 ```
 
-Part 1 - Test case 5:
+*Test case 3*
+*Part 1:*
 2D Grid
 ```
 0 1 0 
@@ -214,7 +217,7 @@ Start -> Goal
 Failed to reach the end position
 
 
-Part 2 - Test case 6:
+*Part 2:*
 2D Grid
 ```
 0 1 0 
